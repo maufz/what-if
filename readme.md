@@ -13,7 +13,7 @@ $ npm install @maufz/if
 ### Simple example
 
 ```ts
-import { If } from "@maufz/if";
+import If from "@maufz/if";
 
 const randomNumber = Math.random() * 10;
 
@@ -31,7 +31,7 @@ Only if the predicate is thruthy the callback will be evaluated.
 This allows for more complex branching.
 
 ```ts
-import { If } from "@maufz/if";
+import If from "@maufz/if";
 
 const randomNumber = Math.random() * 10;
 

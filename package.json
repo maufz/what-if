@@ -23,5 +23,8 @@
         "default": "./dist/index.cjs"
       }
     }
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
