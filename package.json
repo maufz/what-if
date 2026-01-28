@@ -1,6 +1,6 @@
 {
   "name": "@maufz/if",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easily bind `if` control flow results to a variable",
   "main": "index.cjs",
   "author": "maufz (https://maurofernandez.dev)",
