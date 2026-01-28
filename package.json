@@ -1,0 +1,24 @@
+{
+  "name": "what-if",
+  "version": "1.0.0",
+  "description": "Easily bind `if` control flow results to a variable.",
+  "main": "index.js",
+  "author": "maufz (https://maurofernandez.dev)",
+  "license": "MIT",
+  "repository": "https://github.com/maufz/what-if",
+  "devDependencies": {
+    "tsdown": "^0.20.1"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "default": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  }
+}

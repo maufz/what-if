@@ -1,0 +1,5 @@
+{
+  "minify": true,
+  "format": ["cjs", "esm"],
+  "dts": true
+}
