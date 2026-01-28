@@ -38,6 +38,8 @@ class _IF<T> {
   }
 }
 
-export const If = <T>(cond: any, value: T | (() => T)) => {
+const If = <T>(cond: any, value: T | (() => T)) => {
   return new _IF(cond, value);
 };
+
+export default If;

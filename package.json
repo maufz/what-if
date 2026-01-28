@@ -1,5 +1,5 @@
 {
-  "name": "what-if",
+  "name": "@maufz/if",
   "version": "1.0.0",
   "description": "Easily bind `if` control flow results to a variable.",
   "main": "index.js",
@@ -8,6 +8,9 @@
   "repository": "https://github.com/maufz/what-if",
   "devDependencies": {
     "tsdown": "^0.20.1"
+  },
+  "scripts": {
+    "build": "tsdown"
   },
   "exports": {
     ".": {
